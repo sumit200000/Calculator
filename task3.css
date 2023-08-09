@@ -1,0 +1,46 @@
+.main
+{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.calculater_body
+{
+    text-align: center;
+    border: 1px solid black;
+    width: 20%;
+    background-color: rgb(0, 0, 0);
+}
+#butn
+{
+    color: white;
+    background-color:rgb(109, 109, 109);
+}
+#inputoutput_box
+{
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    width: 80%;
+    height: 100px;
+    font-size: 30px;
+}
+button
+{
+    border-radius: 5%;
+    border: none;
+    font-size: 15px;
+    height: 55px;
+    width: 20%;
+    margin-bottom: 10px;
+}
+@media screen and (max-width:600px)
+{
+    .calculater_body
+{
+    margin-top: 60px;
+    width: 100%;
+}
+    
+}
